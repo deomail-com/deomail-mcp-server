@@ -1,0 +1,10 @@
+{
+  "name": "deomail-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for DeoMail: let Claude, Cursor and other AI agents read, send, archive and delete email on your own domain.",
+  "type": "module",
+  "bin": { "deomail-mcp": "src/index.js" },
+  "license": "MIT",
+  "keywords": ["mcp", "email", "deomail", "ai-agent", "claude", "custom-domain-email"],
+  "dependencies": { "@modelcontextprotocol/sdk": "^1.0.0", "zod": "^3.23.0" }
+}

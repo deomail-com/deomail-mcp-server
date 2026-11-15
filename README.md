@@ -18,17 +18,16 @@ Let Claude Desktop, Cursor, Windsurf, VS Code and any MCP client manage your **D
 1. Create an API key in DeoMail → Settings → API Keys.
 2. Add to your MCP client config (Claude Desktop: `claude_desktop_config.json`, Cursor: `.cursor/mcp.json`):
 
-```json
 {
   "mcpServers": {
     "deomail": {
       "command": "npx",
-      "args": ["-y", "deomail-mcp"],
+      "args": ["-y", "@deomail/mcp-server"],
       "env": { "DEOMAIL_API_KEY": "dm_your_key_here" }
     }
   }
 }
-```
+
 3. Restart the client and ask: *"Check my DeoMail inbox, archive newsletters, and draft replies to customers."*
 
 ## Limits
